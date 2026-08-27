@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:iron_ingot",
+    "X": "minecraft:bricks",
+    "F": "minecraft:furnace"
+  },
+  "pattern": [
+    " X ",
+    "#F#",
+    " # "
+  ],
+  "result": {
+    "id": "great_big_world:oven"
+  }
+}
