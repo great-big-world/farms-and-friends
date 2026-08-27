@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "bites=0": {
+      "model": "great_big_world:block/cheese_wheel"
+    },
+    "bites=1": {
+      "model": "great_big_world:block/cheese_wheel_bite1"
+    },
+    "bites=2": {
+      "model": "great_big_world:block/cheese_wheel_bite2"
+    },
+    "bites=3": {
+      "model": "great_big_world:block/cheese_wheel_bite3"
+    }
+  }
+}

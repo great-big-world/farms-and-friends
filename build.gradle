@@ -1,0 +1,25 @@
+repositories {
+    maven {
+        url = uri "https://api.modrinth.com/maven"
+        content {
+            includeGroup "maven.modrinth"
+        }
+    }
+}
+
+loom {
+    accessWidenerPath = file("src/main/resources/farms_and_friends.accesswidener")
+}
+
+configurations {
+    common {
+        canBeResolved = true
+        canBeConsumed = false
+    }
+    compileClasspath.extendsFrom common
+    runtimeClasspath.extendsFrom common
+}
+
+dependencies {
+    common(project(path: ':core', configuration: 'namedElements')) { transitive false }
+}

@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.creoii.farmsandfriends.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CactusBlockMixin",
+    "CropBlockMixin",
+    "FarmBlockMixin",
+    "RecipeBookTypeMixin",
+    "SheepColorSpawnRulesMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "client.SearchRecipeBookCategoryMixin"
+  ]
+}

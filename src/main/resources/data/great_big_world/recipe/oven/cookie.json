@@ -1,0 +1,13 @@
+{
+  "type": "great_big_world:oven",
+  "ingredients": [
+    "minecraft:wheat",
+    "minecraft:wheat",
+    "minecraft:sugar",
+    "minecraft:cocoa_beans"
+  ],
+  "result": {
+    "count": 6,
+    "id": "minecraft:cookie"
+  }
+}

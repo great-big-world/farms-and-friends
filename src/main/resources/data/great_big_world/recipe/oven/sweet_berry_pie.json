@@ -1,0 +1,14 @@
+{
+  "type": "great_big_world:oven",
+  "ingredients": [
+    "minecraft:sweet_berries",
+    "minecraft:sweet_berries",
+    "minecraft:wheat",
+    "minecraft:sugar",
+    "#minecraft:eggs"
+  ],
+  "result": {
+    "count": 1,
+    "id": "great_big_world:sweet_berry_pie"
+  }
+}

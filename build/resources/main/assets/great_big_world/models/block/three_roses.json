@@ -1,0 +1,6 @@
+{
+  "parent": "great_big_world:block/triple_cross",
+  "textures": {
+    "cross": "great_big_world:block/rose"
+  }
+}

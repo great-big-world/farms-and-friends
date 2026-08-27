@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "great_big_world:block/giant_carrot_top",
+    "side": "great_big_world:block/giant_carrot"
+  }
+}

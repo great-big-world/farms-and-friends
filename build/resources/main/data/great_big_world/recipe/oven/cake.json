@@ -1,0 +1,15 @@
+{
+  "type": "great_big_world:oven",
+  "ingredients": [
+    "minecraft:milk_bucket",
+    "minecraft:sugar",
+    "minecraft:sugar",
+    "minecraft:wheat",
+    "minecraft:wheat",
+    "#minecraft:eggs"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:cake"
+  }
+}
