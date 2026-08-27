@@ -4,9 +4,6 @@
   "package": "dev.creoii.farmsandfriends.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "CactusBlockMixin",
-    "CropBlockMixin",
-    "FarmBlockMixin",
     "RecipeBookTypeMixin",
     "SheepColorSpawnRulesMixin"
   ],
