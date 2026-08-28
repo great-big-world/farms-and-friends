@@ -1,25 +1,12 @@
 {
-  "block.great_big_world.giant_potato": "Giant Potato",
-  "block.great_big_world.giant_carrot": "Giant Carrot",
-  "block.great_big_world.giant_beetroot": "Giant Beetroot",
-  "block.great_big_world.giant_poisonous_potato": "Giant Poisonous Potato",
   "block.great_big_world.oven": "Oven",
-  "block.great_big_world.cheese_wheel": "Cheese Wheel",
-  "block.great_big_world.moldy_cheese_wheel": "Moldy Cheese Wheel",
-  "block.great_big_world.moldy_cheese_wheel.variant": "Cheese Wheel",
-  "block.great_big_world.rose": "Rose",
-  "block.great_big_world.cyan_rose": "Cyan Rose",
-  "block.great_big_world.cyan_rose.variant": "Rose",
-  "block.great_big_world.marigold": "Marigold",
 
   "item.great_big_world.apple_pie": "Apple Pie",
   "item.great_big_world.sweet_berry_pie": "Sweet Berry Pie",
+  "item.great_big_world.glow_berry_pie": "Glow Berry Pie",
+  "item.great_big_world.pumpkin_bread": "Pumpkin Bread",
 
   "container.oven": "Oven",
 
-  "gui.recipebook.toggleRecipes.cookable": "Showing Cookable",
-
-  "stat.great_big_world.eat_cheese_bite": "Bites of Cheese",
-
-  "variant.item.moldy": "Moldy"
+  "gui.recipebook.toggleRecipes.cookable": "Showing Cookable"
 }
