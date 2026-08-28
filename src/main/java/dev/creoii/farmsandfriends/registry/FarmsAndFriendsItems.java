@@ -18,16 +18,20 @@ public final class FarmsAndFriendsItems {
     //public static Item GOLDEN_CARROT_CAKE;
     public static Item APPLE_PIE;
     public static Item SWEET_BERRY_PIE;
-    //public static Item PUMPKIN_BREAD;
+    public static Item GLOW_BERRY_PIE;
+    public static Item PUMPKIN_BREAD;
 
     public static void register() {
         OVEN = RegistryHelper.registerBlockItem(Identifier.fromNamespaceAndPath(GreatBigWorld.NAMESPACE, "oven"), FarmsAndFriendsBlocks.OVEN);
 
         APPLE_PIE = RegistryHelper.registerItem(Identifier.fromNamespaceAndPath(GreatBigWorld.NAMESPACE, "apple_pie"), new Item.Properties().stacksTo(16).food(new FoodProperties.Builder().nutrition(8).saturationModifier(.3f).build()));
         SWEET_BERRY_PIE = RegistryHelper.registerItem(Identifier.fromNamespaceAndPath(GreatBigWorld.NAMESPACE, "sweet_berry_pie"), new Item.Properties().stacksTo(16).food(new FoodProperties.Builder().nutrition(8).saturationModifier(.3f).build()));
+        GLOW_BERRY_PIE = RegistryHelper.registerItem(Identifier.fromNamespaceAndPath(GreatBigWorld.NAMESPACE, "glow_berry_pie"), new Item.Properties().stacksTo(16).food(new FoodProperties.Builder().nutrition(8).saturationModifier(.3f).build()));
+        PUMPKIN_BREAD = RegistryHelper.registerItem(Identifier.fromNamespaceAndPath(GreatBigWorld.NAMESPACE, "pumpkin_bread"), new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationModifier(.5f).build()));
 
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FOOD_AND_DRINKS).register(entries -> {
-            entries.addAfter(Items.PUMPKIN_PIE, APPLE_PIE, SWEET_BERRY_PIE);
+            entries.addAfter(Items.PUMPKIN_PIE, APPLE_PIE, SWEET_BERRY_PIE, GLOW_BERRY_PIE);
+            entries.addAfter(Items.BREAD, PUMPKIN_BREAD);
         });
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> {
             entries.addAfter(Items.SOUL_CAMPFIRE, OVEN);
