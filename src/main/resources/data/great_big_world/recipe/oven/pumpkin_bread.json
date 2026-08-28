@@ -1,0 +1,12 @@
+{
+  "type": "great_big_world:oven",
+  "ingredients": [
+    "minecraft:wheat",
+    "minecraft:wheat",
+    "minecraft:pumpkin"
+  ],
+  "result": {
+    "count": 1,
+    "id": "great_big_world:pumpkin_bread"
+  }
+}
